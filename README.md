@@ -10,11 +10,7 @@ This is an amazing image slider for the Android .
 You can easily load images with your custom layout, and there are many kinds of amazing animations you can choose.
 
 ```groovy
-     implementation 'com.github.smarteist:autoimageslider:1.4.0'
-```
-If you are using appcompat libraries use this one, but please migrate to androidx as soon as you can.
-```groovy
-     implementation 'com.github.smarteist:autoimageslider:1.4.0-appcompat'
+	        implementation 'com.github.Shivgupta1031:Android-Image-Slider:v1.4.2'
 ```
 
 ### New Feautures
