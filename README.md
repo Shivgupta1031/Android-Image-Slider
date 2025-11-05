@@ -24,7 +24,7 @@ Add it in your root settings.gradle at the end of repositories:
 Step 2. Add the dependency
 ```
 	dependencies {
-	        implementation 'com.github.Shivgupta1031:Android-Image-Slider:Tag'
+	        implementation 'com.github.Shivgupta1031:Android-Image-Slider:v1.4.4'
 	}
 ```
 
