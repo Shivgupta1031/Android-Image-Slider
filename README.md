@@ -9,8 +9,23 @@ This is an amazing image slider for the Android .
  
 You can easily load images with your custom layout, and there are many kinds of amazing animations you can choose.
 
-```groovy
-	        implementation 'com.github.Shivgupta1031:Android-Image-Slider:v1.4.2'
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root settings.gradle at the end of repositories:
+```
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+```
+	dependencies {
+	        implementation 'com.github.Shivgupta1031:Android-Image-Slider:Tag'
+	}
 ```
 
 ### New Feautures
